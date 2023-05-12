@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BAITAP_JS_BUOI_7_8</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-group alert alert-primary">
+                            <input id="txtNumber" type="number" name="" class="form-control "
+                                placeholder="Nhập vào số nguyên" aria-describedby="helpId">
+
+                        </div>
+                        <button id="btnAddNumber" class="btn btn-primary">Thêm số</button>
+                    </div>
+                    <div id="footerCard" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        1. Tổng số dương
+                    </div>
+                    <div class="card-body">
+                        <button id="btnTinhTong" class="btn btn-primary">Tính tổng</button>
+                    </div>
+                    <div id="footerTinhTong" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        2. Đếm số dương
+                    </div>
+                    <div class="card-body">
+                        <button id="btnDemSo" class="btn btn-primary">Đếm số</button>
+                    </div>
+                    <div id="footerDemSo" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        3. Tìm số nhỏ nhất
+                    </div>
+                    <div class="card-body">
+                        <button id="btnSoNhoNhat" class="btn btn-primary"> Tìm số nhỏ nhất</button>
+                    </div>
+                    <div id="footerSoNhoNhat" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        4. Tìm số dương nhỏ nhất
+                    </div>
+                    <div class="card-body">
+                        <button id="btnSoDuongNN" class="btn btn-primary">Tìm số dương nhỏ nhất</button>
+                    </div>
+                    <div id="footerSoDuongNN" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        5. Tìm số chẵn cuối cùng
+                    </div>
+                    <div class="card-body">
+                        <button id="btnSoChan" class="btn btn-primary">Tìm số chẵn</button>
+                    </div>
+                    <div id="footerSoChan" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        6. Đổi chỗ
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group alert alert-primary">
+                            <input id="index1" type="number" name="" class="form-control "
+                                placeholder="Nhập số vị trí 1" aria-describedby="helpId">
+                        </div>
+                        <div class="form-group alert alert-primary">
+                            <input id="index2" type="number" name="" class="form-control "
+                                placeholder="Nhập số vị trí 2" aria-describedby="helpId">
+                        </div>
+
+
+                        <button id="btnDoiCho" class="btn btn-primary">Đổi chỗ</button>
+                    </div>
+                    <div id="footerDoiCho" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        7. Sắp xếp tăng dần
+                    </div>
+                    <div class="card-body">
+                        <button id="btnSapXepTang" class="btn btn-primary">Sắp xếp</button>
+                    </div>
+                    <div id="footerSapXepTang" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        8. Tìm số nguyên tố đầu tiên
+                    </div>
+                    <div class="card-body">
+                        <button id="btnSoNguyenToDauTien" class="btn btn-primary">Tìm số nguyên tố</button>
+                    </div>
+                    <div id="footerSoNguyenToDauTien" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        9. Đếm số nguyên
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group alert alert-primary">
+                            <input id="txtNumber1" type="number" name="" id="" class="form-control "
+                                placeholder="Nhập số" aria-describedby="helpId">
+                        </div>
+                        <button id="btnAddNumber1" class="btn btn-primary">Thêm số</button>
+                    </div>
+                    <div id="footerCard1" class="card-footer text-muted alert alert-primary"></div>
+                    <div>
+                        <button id="btnDemSoNguyen" class="btn btn-primary col-sm-4 my-2">Đếm số nguyên</button>
+                    </div>
+                    <div id="footerDemSoNguyen" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        10. So sánh số lượng số âm và số dương
+                    </div>
+                    <div class="card-body">
+                        <button id="btnSoSanh" class="btn btn-primary">So sánh</button>
+                    </div>
+                    <div id="footerSoSanh" class="card-footer text-muted alert alert-primary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
